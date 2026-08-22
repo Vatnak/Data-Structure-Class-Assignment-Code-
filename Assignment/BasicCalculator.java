@@ -21,28 +21,21 @@ public class BasicCalculator {
         }
 
         public int divide(int x) {
-            total /= x;
+            if (x != 0) {
+                total /= x;
+            }
+            else {
+                System.out.println("Invalid Number Try again!");
+            }
             return total;
         }
 
         public int modulo(int x) {
-            int remainder = total % x;
-            return remainder;
+            total %= x;
+            return total;
         }
 
         public void reset() {
             total = 0;
         }
-
-
-        public static void main(String[] args) {
-            BasicCalculator calc = new BasicCalculator();
-
-            System.out.println("Initial total:  " + calc.getTotal());
-
-            
-
-
-        }
     }
-    
