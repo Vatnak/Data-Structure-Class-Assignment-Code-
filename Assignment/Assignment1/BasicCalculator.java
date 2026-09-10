@@ -1,3 +1,4 @@
+package Assignment1;
 /** Basic Calculator provide simple aritmetic operation:
  * Add, Deduct, Multiply, Devide, Modulo
  * The output will return as Total
