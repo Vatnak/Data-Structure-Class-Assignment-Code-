@@ -1,0 +1,24 @@
+=== Merge Sort ===
++  Comparisons: 6
++  Swaps: 12
++  Runtime (ns): 5000
++  Sorted Array: [250092, 533474, 779487, 869424, 914506]
+
+=== Bubble Sort ===
++  Comparisons: 7
++  Swaps: 2
++  Runtime (ns): 2400
++  Sorted Array: [250092, 533474, 779487, 869424, 914506]
+
+=== Selection Sort ===
++  Comparisons: 10
++  Swaps: 2
++  Runtime (ns): 2400
++  Sorted Array: [250092, 533474, 779487, 869424, 914506]
+
+=== Insertion Sort ===
++  Comparisons: 2
++  Swaps: 2
++  Runtime (ns): 2100
++  Sorted Array: [250092, 533474, 779487, 869424, 914506]
+
